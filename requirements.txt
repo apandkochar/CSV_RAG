@@ -1,0 +1,9 @@
+langchain
+langchain_community
+langchain_huggingface
+pandas 
+langchain_google_genai
+streamlit
+chromadb
+faiss-cpu
+langchain_experimental
