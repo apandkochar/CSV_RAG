@@ -21,9 +21,9 @@ def main():
             #     model = ''
             #     temperature=0.3,
             #     max_tokens=2048,
-            #     api_key='AIzaSyCBGlMJhkzvGRr8a0vco78zWY9NqU3JaLY',  # Replace with your actual API key
+            #     api_key='',  # Replace with your actual API key
             # )
-            llm = ChatGoogleGenerativeAI( model = 'gemini-1.5-flash' , temperature= 0.7 , api_key='AIzaSyCBGlMJhkzvGRr8a0vco78zWY9NqU3JaLY')
+            llm = ChatGoogleGenerativeAI( model = 'gemini-1.5-flash' , temperature= 0.7 , api_key='')
         except Exception as e:
             st.error(f"Failed to initialize LLM: {e}")
             return
